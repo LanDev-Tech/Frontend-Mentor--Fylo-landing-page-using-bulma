@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+:root{
+    /* fonts */
+    --open-sans: 'Open Sans', sans-serif;
+    --raleway: 'Raleway', sans-serif;
+}
+
+body{
+    color: white;
+    font-family: var(--open-sans);
+}
+
+.navbar{
+    background: hsl(218, 28%, 13%);
+}
+
+.navbar-burger{
+    color: white;
+}
+
+.navbar-menu{
+    background: hsl(218, 28%, 13%);
+    color: white;
+}
+
+.is-active{
+    color: white;
+}
+a.navbar-item{
+    color: white;
+    font-family: var(--raleway);
+}
+
+a.navbar-item:hover{
+    color: hsl(176, 68%, 64%);
+    background: hsl(218, 28%, 13%);
+}
+
+figure.image.is-128x120 {
+    height: 120px;
+    width: 128px;
+}
+
+figure.image.is-128x120 img {
+    height: 128px;
+    width: 96px;
+}
+
+img.productive{
+    height: auto;
+}
+
+h1.title, h2.title, h3.title, h5.title{
+    color: white;
+    font-family: var(--raleway);
+}
+
+p.subtitle{
+    color: white;
+}
+
+.box{
+    background: hsl(219, 30%, 18%);
+    color: white;
+}
+
+input.input{
+    border-radius: 50px;
+}
+
+button.button{
+    border-radius: 50px;
+    font-family: var(--raleway);
+}
+
+button.button.is-primary{
+    background-color: transparent;
+    background: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+}
+
+button.sizing{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.footer{
+    background: hsl(216, 53%, 9%);
+    font-family: var(--raleway);
+}
+
+a{
+    color: white;
+}
+
+a.button{
+    background-color: transparent;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+}
+
+a.button img{
+    width: 64px;
+    height: 64px;
+}
+
+a.link-productive{
+    color: hsl(176, 68%, 64%);
+    text-align: center;
+    padding-bottom: .2em;
+    border-bottom: 1.2px solid hsl(176, 68%, 64%);
+}
